@@ -50,12 +50,12 @@ bun run dev
 ## Scripts
 
 ```bash
-bun run dev         # Start development server
-bun run build       # Build for production
-bun run lint        # Run ESLint
-bun run preview     # Preview production build locally
-bun test            # Run tests
-bun run test:ui     # Run tests with UI
+bun run dev            # Start development server
+bun run build          # Build for production
+bun run lint           # Run ESLint
+bun test               # Run tests
+bun run test:ui        # Run tests with UI
+bun run test:coverage  # Run tests with coverage
 ```
 
 ## Deployment
