@@ -14,3 +14,6 @@ dist/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .DS_Store
+
+# Extensions
+.continue/*
