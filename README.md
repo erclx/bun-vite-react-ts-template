@@ -1,6 +1,6 @@
-# Vite React TypeScript Template
+# Bun Vite React TypeScript Template
 
-A starter template for React projects. Pre-configured with Vite, TypeScript, ESLint, and Prettier.
+A starter template for React projects. Pre-configured with Bun, Vite, TypeScript, ESLint, and Prettier.
 Clone it and start building.
 
 ## Disclaimer
@@ -11,15 +11,16 @@ This is opinionated. Use what works for you, ignore the rest, and stay consisten
 
 ### Core Stack
 
+- **Bun** runtime and package manager
 - **React 19** with **Vite** for fast development
 - **TypeScript** for type safety
 - **Tailwind CSS** for styling
 
 ### Testing
 
-- **Vitest** for unit and integration tests
+- **Bun Test** for unit and integration tests
 - **React Testing Library** for component testing
-- **jsdom** for browser environment simulation
+- **happy-dom** for browser environment simulation
 
 ### Architecture
 
@@ -42,19 +43,19 @@ This is opinionated. Use what works for you, ignore the rest, and stay consisten
 ```bash
 git clone <your-repo-url> my-project
 cd my-project
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
 ## Scripts
 
 ```bash
-npm run dev         # Start development server
-npm run build       # Build for production
-npm run lint        # Run ESLint
-npm run preview     # Preview production build locally
-npm test            # Run tests
-npm run test:ui     # Run tests with UI
+bun run dev         # Start development server
+bun run build       # Build for production
+bun run lint        # Run ESLint
+bun run preview     # Preview production build locally
+bun test            # Run tests
+bun run test:ui     # Run tests with UI
 ```
 
 ## Deployment
@@ -65,7 +66,7 @@ npm run test:ui     # Run tests with UI
 
 ```yaml
 - name: Build
-  run: npm run build
+  run: bun run build
   env:
     VITE_BASE_PATH: /your-repo-name/
 ```
@@ -85,8 +86,8 @@ No configuration needed! Just connect your repository and deploy.
 ### Local Preview
 
 ```bash
-npm run build
-npm run preview
+bun run build
+bun run preview
 ```
 
 ## Project Conventions
